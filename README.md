@@ -49,3 +49,4 @@ $ py.test test_square.py
 $ py.test test_power.py
 $ py.test test_sqrt.py
 ```
+test
