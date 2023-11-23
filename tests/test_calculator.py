@@ -3,7 +3,7 @@ import unittest
 from calculator import add, subtract, divide, multiply, square, power, sqrt
 
 
-class test_calculator(unittest.TestCase):
+class MyTestCase(unittest.TestCase):
     def test_add(self):
         results = add(1, 2)
         self.assertEqual(results, 3)
