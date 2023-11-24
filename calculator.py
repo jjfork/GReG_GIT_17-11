@@ -2,8 +2,8 @@ def add(x, y):
     return x + y
 
 
-def subtract(x, y):
-    pass
+def subtract(x, y) -> int:
+    return x-y
 
 
 def divide(x, y):
