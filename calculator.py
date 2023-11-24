@@ -22,5 +22,5 @@ def power(x, y):
     pass
 
 
-def sqrt(x):
-    pass
+def sqrt(x: [int]) -> int:
+    return x**(1/2)
