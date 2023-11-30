@@ -27,7 +27,8 @@ def sqrt(x):
 
 
 def power_of(base, exponent):
-    pass
+    result = pow(base,exponent)
+    return result
 
 
 def trick(x):
