@@ -7,15 +7,7 @@ def subtract(x, y):
 
 
 def divide(x, y):
-    x = float(input("First number: "))
-    y = float(input("Second number: "))
-
-    if y != 0:
-        result = x / y
-        print({result})
-    else:
-        print("You cannot divide by zero!!!")
-    return
+    return x/y
 
 
 def multiply(x, y) -> int:
