@@ -24,3 +24,10 @@ def power(x, y):
 
 def sqrt(x):
     pass
+
+
+def trick(x):
+    """
+    as an input this takes String and print it
+    """
+    pass

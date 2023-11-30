@@ -1,6 +1,6 @@
 import unittest
 
-from calculator import add, subtract, divide, multiply, square, power, sqrt
+from calculator import add, subtract, divide, multiply, square, power, sqrt, trick
 
 
 class MyTestCase(unittest.TestCase):
@@ -41,6 +41,10 @@ class MyTestCase(unittest.TestCase):
 
         results = sqrt(16)
         self.assertEqual(results, 4)
+
+    def test_trick(self):
+        results = trick('58008')
+        self.assertEqual(results, '58008')
 
 
 if __name__ == "__main__":
