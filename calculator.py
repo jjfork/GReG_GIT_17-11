@@ -26,6 +26,10 @@ def sqrt(x):
     pass
 
 
+def power_of(base, exponent):
+    pass
+
+
 def trick(x):
     """
     as an input this takes String and print it
