@@ -19,7 +19,7 @@ def square(x):
 
 
 def power(x, y):
-    pass
+    return x**y
 
 
 def sqrt(x):
@@ -27,7 +27,8 @@ def sqrt(x):
 
 
 def power_of(base, exponent):
-    pass
+    result = pow(base,exponent)
+    return result
 
 
 def trick(x):
