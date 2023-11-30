@@ -23,7 +23,7 @@ def power(x, y):
 
 
 def sqrt(x):
-    pass
+    return x ** 0.5
 
 
 def power_of(base, exponent):
@@ -32,7 +32,7 @@ def power_of(base, exponent):
 
 
 def trick(x):
-    """
-    as an input this takes String and print it
-    """
-    pass
+    return x
+
+
+
